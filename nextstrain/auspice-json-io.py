@@ -2,7 +2,7 @@ import baltic as bt
 from baltic import bt_utils
 import json
 
-ll = bt.io.load_nexus('/mnt/c/Users/evogytis/repos/baltic-examples/MERS-CoV/MERS.mcc.tree', 'time') ## import nexus MCC tree
+ll = bt.io.load_nexus('./../MERS-CoV/MERS.mcc.tree', 'time') ## import nexus MCC tree
 ll.treeStats()
 
 ll.sort_branches()

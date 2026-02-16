@@ -25,7 +25,7 @@ colours = {'SLE': '#647397', 'GIN': '#6db69f', 'LBR': '#ea906e'}
 colourFxn = lambda k: colours[admin2country[k.traits[traitName]]]
 
 
-ll=bt.io.load_nexus('/mnt/c/Users/evogytis/repos/baltic-examples/Ebola/Makona_1610_cds_ig.GLM.MCC.tree', 'time') ## treeFile here can alternatively be a path to a local file
+ll=bt.io.load_nexus('Makona_1610_cds_ig.GLM.MCC.tree', 'time') ## treeFile here can alternatively be a path to a local file
 ll.treeStats() ## report stats about tree
 
 ################# processing

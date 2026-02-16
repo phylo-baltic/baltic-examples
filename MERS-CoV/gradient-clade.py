@@ -9,7 +9,7 @@ from matplotlib.gridspec import GridSpec
 mpl.use("Agg")
 
 #################
-ll=bt.io.load_nexus('/mnt/c/Users/evogytis/repos/baltic-examples/MERS-CoV/MERS.mcc.tree', 'time') ## treeFile here can alternatively be a path to a local file
+ll=bt.io.load_nexus('MERS.mcc.tree', 'time') ## treeFile here can alternatively be a path to a local file
 ll.treeStats() ## report stats about tree
 
 ll.sort_branches()

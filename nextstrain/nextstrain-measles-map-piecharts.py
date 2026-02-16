@@ -14,7 +14,7 @@ mpl.use("Agg")
 # url = 'https://nextstrain.org/charon/getDataset?prefix=measles/genome'
 # ll, meta = bt.io.load_JSON(url, 'time') ## this import from URL also works
 
-ll, meta = bt.io.load_JSON('/mnt/c/Users/evogytis/repos/baltic-examples/nextstrain/measles_genome.json', 'time')
+ll, meta = bt.io.load_JSON('measles_genome.json', 'time')
 
 ####### this does plotting
 fig = plt.figure(figsize=(35, 15), facecolor='w')

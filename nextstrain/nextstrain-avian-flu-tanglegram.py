@@ -15,7 +15,7 @@ segments = ['PB1', 'PB2', 'PA', 'HA', 'NP', 'NA', 'MP', 'NS']
 trees = {}
 
 for seg in segments:
-    ll, meta = bt.io.load_JSON(f"/mnt/c/Users/evogytis/repos/baltic-examples/nextstrain/avian-flu_h5n1_{seg.lower()}_2y.json", 'divergence') ## this import from URL also works
+    ll, meta = bt.io.load_JSON(f"avian-flu_h5n1_{seg.lower()}_2y.json", 'divergence') ## this import from URL also works
 
     ll.sort_branches()
     trees[seg] = ll
